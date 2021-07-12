@@ -103,7 +103,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.WordViewHolder> {
         return mWordList.size();
     }
 
-    class WordViewHolder extends RecyclerView.ViewHolder{
+    class WordViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
         RelativeLayout parentLayout;
         TextView text1,text2;
         MyAdapter mAdapter;
@@ -115,5 +115,9 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.WordViewHolder> {
             parentLayout = itemView.findViewById(R.id.parent_layout);
         }
 
+        @Override
+        public void onClick(View view) {
+            view.setSelected(true);
+        }
     }
 }

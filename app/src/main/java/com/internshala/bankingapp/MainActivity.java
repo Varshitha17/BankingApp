@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
     MyAdapter mAdapter;
 
     //initial  data for banking table
-    String [] namesArr = {"Thanu","Nella","Reddy","Anu","Yashu","Yashas","Megana","Vinayak","Vachan","Vaish","Vinay","Nisha","Suhana","Ragina","Deepa"};
+    String [] namesArr = {"Thanu","Nella","Reddy","Anu","Varshitha","Shushritha","Chaithanya","Sipra","Vismitha","Harika","Amrina","Nisha","Suhana","Ragina","Deepa"};
     String [] accountNoArr = {"XXXXXX3412","XXXXXX3413","XXXXXX3414","XXXXXX3415","XXXXXX3416","XXXXXX3417","XXXXXX3418","XXXXXX3419","XXXXXX3420","XXXXXX3421","XXXXXX3422","XXXXXX3423","XXXXXX3424","XXXXXX3425","XXXXXX3426"};
     String [] emailArr = {"thanu@gmail.com","nella@gmail.com","reddy@gmail.com","anu@gmail.com","yashu@gmail.com","yashas@gmail.com","megana@gmail.com","vinayak@gmail.com","vachan@gmail.com","vaish@gmail.com","nisha@gmail.com","suhana@gmail.com","ragina@gmail.com","deepa@gmail.com"};
     String [] ifscArr = {"C001234","C001934","C001235","C001238","C001239","C001237","C001231","C001233","C001234","C001234","C001234","C001234","C001234","C001234","C001234"};
